@@ -3,6 +3,8 @@ import { onMounted, ref, provide } from 'vue';
 import DarkMode from './components/DarkMode.vue';
 import InputPassword from './components/InputPassword.vue';
 import SettingsForm from './components/SettingsForm.vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
 const cant = ref(12);
 const mayus = ref(true);
 const minus = ref(true);
@@ -12,6 +14,7 @@ const password = ref('password');
 
 
 const generatePassword = () => {
+
   //generate random password 
   let randomPassword = '';
   let characters = '';
@@ -74,6 +77,14 @@ onMounted(() => {
       <br />
     </div>
   </div>
+  <p class="text-center mt-2">
+    <a href="https://github.com/benjamincordero/password-generator"
+      class="text-indigo-500 hover:text-indigo-800 cursor-pointer dark:text-green-400 dark:hover:text-green-600"
+      target="_blank">
+      <font-awesome-icon :icon="['fab', 'github']" />
+      Github Repository
+    </a>
+  </p>
 </template>
 <style scoped>
 @keyframes parpadeo {
