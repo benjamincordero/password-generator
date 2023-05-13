@@ -26,9 +26,6 @@ npm install
 npm run dev
 ```
 
-or
-
-
 4. Open your browser and navigate to server url to see the app running.
 
 ## Usage
