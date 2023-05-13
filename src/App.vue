@@ -68,7 +68,7 @@ onMounted(() => {
     <h1 class="text-6xl font-bold text-slate-600 dark:text-gray-400 text-center" id="title">
       {{ typedText }}<span class="dark:text-gray-400" :class="{ parpadeo }">|</span>
     </h1>
-    <div class="w-3/4 mx-auto lg:mt-20 bg-white dark:bg-slate-800 rounded-md p-6">
+    <div class="w-100 lg:w-2/4 mx-auto lg:mt-20 bg-white dark:bg-transparent lg:dark:bg-slate-800 rounded-md p-6">
       <InputPassword />
       <SettingsForm />
       <br />
