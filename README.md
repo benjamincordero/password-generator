@@ -33,5 +33,5 @@ npm run dev
 To generate a password, simply select the desired length and character options using the form inputs, then click the "Generate Password" button. The app will display the generated password in the output field, which you can copy and use as needed.
 
 ## Demo
-You can check a demo of this [here](url)
+You can check a demo of this [here](https://benjamincordero.github.io/password-generator/)
 
